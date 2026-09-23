@@ -53,6 +53,58 @@
 .work .project-stage { min-height: 0; }
 .work .work-more { justify-content: space-between; align-items: center; gap: 16px; }
 .work .work-more .slider-controls { position: static; transform: none; margin-left: auto; }
+
+/* Captured previews of the live websites in the extended project list. */
+.library-visual.website-shot { background: #e9e7e1; }
+.library-visual.website-shot img { display: block; width: 100%; max-height: none; height: auto; aspect-ratio: 1348 / 926; object-fit: cover; object-position: top; box-shadow: 0 18px 44px rgba(0,0,0,.15); }
+.library-card .case-link { display: inline-block; margin-top: 22px; }
+.library-card .case-link.secondary-link { margin-left: 18px; }
+
+/* Two actual Figma screens sit inside browser device mockups. The viewport
+   intentionally shows the top of each long page instead of shrinking it. */
+.mockup-stage { position: relative; display: block; min-height: 475px; isolation: isolate; }
+.mockup-stage.finance-stage { background: radial-gradient(circle at 50% 30%, #e2e2ff, transparent 60%), #cbcef4; }
+.phone-preview { position: absolute; width: min(40%, 208px); padding: 5px; border-radius: 34px; background: #fff; box-shadow: 0 25px 46px rgba(42, 43, 115, .22); }
+.phone-default { left: 14%; top: 8%; transform: rotate(-8deg); }
+.phone-private { right: 14%; top: 13%; transform: rotate(8deg); }
+.phone-crop { position: relative; aspect-ratio: 304 / 655; overflow: hidden; border-radius: 29px; background: #f9f9ff; }
+.phone-crop img { position: absolute; display: block; width: 467.1%; max-width: none; height: auto; top: -35.9%; left: -247%; }
+.phone-private .phone-crop img { width: 471.1%; top: -39.7%; left: -251.5%; }
+.finance-caption { position: absolute; bottom: 5%; left: 0; width: 100%; color: #343597; font-size: .75rem; letter-spacing: .12em; text-align: center; text-transform: uppercase; }
+.finance-caption b { color: var(--orange); font-size: 1.15rem; vertical-align: middle; }
+.mockup-stage.ticket-stage { display: flex; align-items: center; justify-content: center; flex-direction: column; background: radial-gradient(circle at 50% 25%, #456584, transparent 63%), #192a40; }
+.laptop-display { position: relative; width: 92%; overflow: hidden; padding: 10px 7px 7px; border: 5px solid #1c2029; border-radius: 14px 14px 4px 4px; background: #1c2029; box-shadow: 0 24px 48px rgba(0,0,0,.3); }
+.laptop-camera { position: absolute; z-index: 1; top: 5px; left: 50%; width: 3px; height: 3px; border-radius: 50%; background: #6d7786; }
+.laptop-screen { overflow: hidden; aspect-ratio: 1912 / 948; background: #f7faff; }
+.laptop-screen img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; max-height: none; }
+.laptop-base { width: 98%; height: 14px; border-radius: 2px 2px 40% 40%; background: linear-gradient(#cad0d7, #78818c); box-shadow: 0 14px 28px rgba(0,0,0,.25); }
+.mockup-stage.youdo-stage { background: radial-gradient(circle at 72% 33%, #d8f3dd, transparent 55%), #d9e6db; }
+.mockup-stage.lookwild-stage { background: radial-gradient(circle at 68% 35%, #654735, transparent 57%), #221f22; }
+.device-frame { position: absolute; overflow: hidden; background: #f5f5f5; border: 6px solid #212123; border-radius: 12px; box-shadow: 0 22px 48px rgba(0,0,0,.32); }
+.device-back { width: 68%; top: 10%; right: 6%; transform: rotate(5deg); }
+.device-front { width: 78%; bottom: 10%; left: 5%; transform: rotate(-4deg); }
+.device-toolbar { display: flex; align-items: center; gap: 4px; height: 19px; padding: 0 10px; background: #242428; }
+.device-toolbar i { width: 5px; height: 5px; border-radius: 50%; background: #777780; }
+.device-toolbar i:first-child { background: #ff7965; }
+.device-toolbar i:nth-child(2) { background: #f4c466; }
+.device-toolbar i:nth-child(3) { background: #79cda1; }
+.device-screen { aspect-ratio: 16 / 10; overflow: hidden; background: #fff; }
+.device-screen img { display: block; width: 100%; max-height: none; height: auto; object-fit: initial; }
+@media (max-width: 800px) {
+  .mockup-stage { min-height: 360px; }
+  .device-back { width: 69%; }
+  .device-front { width: 79%; }
+}
+@media (max-width: 520px) {
+  .mockup-stage { min-height: 300px; }
+  .phone-preview { width: 41%; padding: 3px; border-radius: 24px; }
+  .phone-crop { border-radius: 21px; }
+  .phone-default { left: 10%; }
+  .phone-private { right: 10%; }
+  .laptop-display { padding: 7px 4px 4px; border-width: 3px; border-radius: 9px 9px 2px 2px; }
+  .laptop-base { height: 9px; }
+  .library-card .case-link.secondary-link { margin-left: 12px; }
+}
 @media (max-width: 520px) {
   .work .work-more { flex-wrap: wrap; }
 }
