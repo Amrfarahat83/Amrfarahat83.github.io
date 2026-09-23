@@ -1,0 +1,197 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI-powered ERP digital DNA illustration</title>
+  <desc id="desc">A central AI core connected through a digital helix to six enterprise department nodes.</desc>
+
+  <defs>
+    <linearGradient id="helixA" x1="331" y1="680" x2="574" y2="201" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D78B5" stop-opacity="0.25"/>
+      <stop offset="0.48" stop-color="#22BCEB"/>
+      <stop offset="1" stop-color="#70D9F4" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="helixB" x1="570" y1="680" x2="326" y2="201" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6B91A8" stop-opacity="0.22"/>
+      <stop offset="0.48" stop-color="#B7DCE8" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#22BCEB" stop-opacity="0.38"/>
+    </linearGradient>
+    <radialGradient id="coreFill" cx="0" cy="0" r="1" gradientTransform="translate(450 424) rotate(90) scale(112)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22BCEB" stop-opacity="0.24"/>
+      <stop offset="0.62" stop-color="#0E3550" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#0E3550" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hubFill" cx="0" cy="0" r="1" gradientTransform="translate(450 117) rotate(90) scale(55)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E0B300" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#E0B300" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <filter id="nodeGlow" x="-60%" y="-60%" width="220%" height="220%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <pattern id="microGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#75B7D1" stroke-opacity="0.055" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.2" fill="#75B7D1" fill-opacity="0.11"/>
+    </pattern>
+  </defs>
+
+  <!-- Transparent canvas: the host UI supplies the dark navy background. -->
+  <g id="ambient-grid">
+    <rect x="42" y="42" width="816" height="816" rx="50" fill="url(#microGrid)"/>
+    <circle cx="450" cy="430" r="310" stroke="#5E9BB6" stroke-opacity="0.08"/>
+    <circle cx="450" cy="430" r="238" stroke="#5E9BB6" stroke-opacity="0.07" stroke-dasharray="2 14"/>
+    <path d="M107 470C214 341 303 304 450 304C597 304 690 350 793 470" stroke="#5E9BB6" stroke-opacity="0.08" stroke-dasharray="3 15"/>
+    <path d="M135 601C246 520 325 498 450 498C575 498 657 523 765 601" stroke="#5E9BB6" stroke-opacity="0.07" stroke-dasharray="3 15"/>
+  </g>
+
+  <!-- Unified enterprise hub -->
+  <g id="enterprise-hub">
+    <circle cx="450" cy="117" r="60" fill="url(#hubFill)"/>
+    <circle cx="450" cy="117" r="37" fill="#153F59" fill-opacity="0.64" stroke="#E0B300" stroke-opacity="0.75" stroke-width="1.5"/>
+    <path d="M450 95L469 106V128L450 139L431 128V106L450 95Z" stroke="#F1C40F" stroke-width="2"/>
+    <circle cx="450" cy="117" r="6" fill="#F1C40F"/>
+    <circle cx="450" cy="117" r="11" stroke="#F1C40F" stroke-opacity="0.45"/>
+    <path d="M450 95V82M469 106L480 100M469 128L480 134M450 139V152M431 128L420 134M431 106L420 100" stroke="#F1C40F" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Connection from the unified hub into the ERP digital DNA -->
+  <g id="hub-link">
+    <path d="M450 154V196" stroke="#E0B300" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="3 8"/>
+    <circle cx="450" cy="177" r="3" fill="#F1C40F"/>
+    <circle cx="450" cy="195" r="5" fill="#22BCEB"/>
+  </g>
+
+  <!-- Digital DNA: shared processes and data across the ERP -->
+  <g id="digital-dna">
+    <path d="M345 210C345 285 555 315 555 390C555 465 345 495 345 570C345 625 410 663 450 690" stroke="url(#helixA)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M555 210C555 285 345 315 345 390C345 465 555 495 555 570C555 625 490 663 450 690" stroke="url(#helixB)" stroke-width="8" stroke-linecap="round"/>
+
+    <g stroke-linecap="round">
+      <path d="M368 254L532 254" stroke="#79CFE8" stroke-opacity="0.52" stroke-width="2"/>
+      <path d="M402 291L498 291" stroke="#79CFE8" stroke-opacity="0.38" stroke-width="2"/>
+      <path d="M383 333L517 333" stroke="#79CFE8" stroke-opacity="0.46" stroke-width="2"/>
+      <path d="M350 389L550 389" stroke="#79CFE8" stroke-opacity="0.6" stroke-width="2"/>
+      <path d="M382 445L518 445" stroke="#79CFE8" stroke-opacity="0.44" stroke-width="2"/>
+      <path d="M402 488L498 488" stroke="#79CFE8" stroke-opacity="0.37" stroke-width="2"/>
+      <path d="M370 526L530 526" stroke="#79CFE8" stroke-opacity="0.5" stroke-width="2"/>
+      <path d="M348 572L552 572" stroke="#79CFE8" stroke-opacity="0.56" stroke-width="2"/>
+      <path d="M385 618L515 618" stroke="#79CFE8" stroke-opacity="0.43" stroke-width="2"/>
+      <path d="M419 659L481 659" stroke="#79CFE8" stroke-opacity="0.35" stroke-width="2"/>
+    </g>
+
+    <g fill="#22BCEB">
+      <circle cx="368" cy="254" r="4"/><circle cx="532" cy="254" r="4"/>
+      <circle cx="383" cy="333" r="4"/><circle cx="517" cy="333" r="4"/>
+      <circle cx="350" cy="389" r="4"/><circle cx="550" cy="389" r="4"/>
+      <circle cx="382" cy="445" r="4"/><circle cx="518" cy="445" r="4"/>
+      <circle cx="370" cy="526" r="4"/><circle cx="530" cy="526" r="4"/>
+      <circle cx="348" cy="572" r="4"/><circle cx="552" cy="572" r="4"/>
+      <circle cx="385" cy="618" r="4"/><circle cx="515" cy="618" r="4"/>
+    </g>
+    <g fill="#E0B300">
+      <circle cx="402" cy="291" r="3.5"/><circle cx="498" cy="291" r="3.5"/>
+      <circle cx="402" cy="488" r="3.5"/><circle cx="498" cy="488" r="3.5"/>
+      <circle cx="419" cy="659" r="3.5"/><circle cx="481" cy="659" r="3.5"/>
+    </g>
+  </g>
+
+  <!-- AI core: the intelligence layer inside the ERP -->
+  <g id="ai-core">
+    <circle cx="450" cy="424" r="114" fill="url(#coreFill)"/>
+    <circle cx="450" cy="424" r="70" stroke="#22BCEB" stroke-opacity="0.13" stroke-width="18" filter="url(#softGlow)"/>
+    <circle cx="450" cy="424" r="54" fill="#103A55" fill-opacity="0.93" stroke="#69D5F1" stroke-opacity="0.68" stroke-width="1.5"/>
+    <path d="M450 382L486 403V445L450 466L414 445V403L450 382Z" fill="#123F5C" stroke="#22BCEB" stroke-width="2.2"/>
+    <path d="M450 397V451M429 410L471 438M471 410L429 438" stroke="#70D9F4" stroke-opacity="0.82" stroke-width="1.7" stroke-linecap="round"/>
+    <circle cx="450" cy="397" r="4.5" fill="#F1C40F"/>
+    <circle cx="450" cy="451" r="4.5" fill="#22BCEB"/>
+    <circle cx="429" cy="410" r="4.5" fill="#22BCEB"/>
+    <circle cx="471" cy="410" r="4.5" fill="#70D9F4"/>
+    <circle cx="429" cy="438" r="4.5" fill="#70D9F4"/>
+    <circle cx="471" cy="438" r="4.5" fill="#22BCEB"/>
+    <circle cx="450" cy="424" r="7" fill="#E0B300"/>
+    <circle cx="450" cy="424" r="13" stroke="#E0B300" stroke-opacity="0.35"/>
+    <g stroke="#22BCEB" stroke-width="1.5" stroke-linecap="round">
+      <path d="M414 403L399 394V382"/><path d="M486 403L501 394V382"/>
+      <path d="M414 445L399 454V466"/><path d="M486 445L501 454V466"/>
+      <path d="M450 382V367"/><path d="M450 466V481"/>
+    </g>
+    <g fill="#22BCEB">
+      <circle cx="399" cy="382" r="3"/><circle cx="501" cy="382" r="3"/>
+      <circle cx="399" cy="466" r="3"/><circle cx="501" cy="466" r="3"/>
+      <circle cx="450" cy="367" r="3"/><circle cx="450" cy="481" r="3"/>
+    </g>
+  </g>
+
+  <!-- Department connections -->
+  <g id="department-links" stroke="#68BFD9" stroke-opacity="0.32" stroke-width="1.5">
+    <path d="M377 286C322 270 276 256 230 250"/>
+    <path d="M347 390C297 381 251 377 204 377"/>
+    <path d="M371 527C317 548 278 570 234 598"/>
+    <path d="M523 286C578 270 624 256 670 250"/>
+    <path d="M553 390C603 381 649 377 696 377"/>
+    <path d="M529 527C583 548 622 570 666 598"/>
+  </g>
+
+  <!-- Six editable ERP module nodes; icons are symbolic and contain no labels. -->
+  <g id="department-nodes">
+    <g id="hr-node">
+      <circle cx="205" cy="247" r="45" fill="#153F59" fill-opacity="0.72" stroke="#6BB7D1" stroke-opacity="0.35"/>
+      <circle cx="205" cy="247" r="28" fill="#1B4A65"/>
+      <circle cx="205" cy="238" r="7" stroke="#70D9F4" stroke-width="2"/>
+      <path d="M191 261C192 251 198 247 205 247C212 247 218 251 219 261" stroke="#70D9F4" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="205" cy="247" r="3" fill="#22BCEB" filter="url(#nodeGlow)"/>
+    </g>
+    <g id="it-node">
+      <circle cx="179" cy="377" r="45" fill="#153F59" fill-opacity="0.72" stroke="#6BB7D1" stroke-opacity="0.35"/>
+      <circle cx="179" cy="377" r="28" fill="#1B4A65"/>
+      <rect x="166" y="367" width="26" height="18" rx="3" stroke="#70D9F4" stroke-width="2"/>
+      <path d="M174 391H184M179 385V391" stroke="#70D9F4" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="187" cy="372" r="2" fill="#E0B300"/>
+    </g>
+    <g id="procurement-node">
+      <circle cx="209" cy="612" r="45" fill="#153F59" fill-opacity="0.72" stroke="#6BB7D1" stroke-opacity="0.35"/>
+      <circle cx="209" cy="612" r="28" fill="#1B4A65"/>
+      <path d="M195 604H223L220 623H198L195 604Z" stroke="#70D9F4" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M202 604V600C202 596 205 593 209 593C213 593 216 596 216 600V604" stroke="#E0B300" stroke-width="2"/>
+    </g>
+    <g id="finance-node">
+      <circle cx="695" cy="247" r="45" fill="#153F59" fill-opacity="0.72" stroke="#6BB7D1" stroke-opacity="0.35"/>
+      <circle cx="695" cy="247" r="28" fill="#1B4A65"/>
+      <path d="M695 233V261M702 238C700 235 697 234 693 234C688 234 685 237 685 241C685 247 691 248 696 249C701 250 705 252 705 257C705 262 701 265 695 265C690 265 686 263 683 259" stroke="#70D9F4" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="695" cy="247" r="3" fill="#E0B300" filter="url(#nodeGlow)"/>
+    </g>
+    <g id="operations-node">
+      <circle cx="721" cy="377" r="45" fill="#153F59" fill-opacity="0.72" stroke="#6BB7D1" stroke-opacity="0.35"/>
+      <circle cx="721" cy="377" r="28" fill="#1B4A65"/>
+      <circle cx="721" cy="377" r="8" stroke="#70D9F4" stroke-width="2"/>
+      <path d="M721 357V364M721 390V397M701 377H708M734 377H741M707 363L712 368M730 386L735 391M735 363L730 368M712 386L707 391" stroke="#70D9F4" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="721" cy="377" r="3" fill="#E0B300"/>
+    </g>
+    <g id="quality-node">
+      <circle cx="691" cy="612" r="45" fill="#153F59" fill-opacity="0.72" stroke="#6BB7D1" stroke-opacity="0.35"/>
+      <circle cx="691" cy="612" r="28" fill="#1B4A65"/>
+      <path d="M691 592L708 598V609C708 620 701 628 691 632C681 628 674 620 674 609V598L691 592Z" stroke="#70D9F4" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M682 611L688 617L701 604" stroke="#E0B300" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- AI insight particles flowing through the system -->
+  <g id="ai-particles">
+    <circle cx="330" cy="310" r="3" fill="#E0B300"/>
+    <circle cx="570" cy="310" r="3" fill="#E0B300"/>
+    <circle cx="315" cy="470" r="2.5" fill="#22BCEB"/>
+    <circle cx="585" cy="470" r="2.5" fill="#22BCEB"/>
+    <circle cx="352" cy="650" r="3" fill="#E0B300"/>
+    <circle cx="548" cy="650" r="3" fill="#E0B300"/>
+  </g>
+
+  <!-- Foundation: one unified data layer, replacing the former maritime element. -->
+  <g id="unified-data-foundation">
+    <path d="M324 719H576" stroke="#6BC8E2" stroke-opacity="0.28" stroke-width="1.5"/>
+    <path d="M350 735H550" stroke="#6BC8E2" stroke-opacity="0.17" stroke-width="1.5"/>
+    <rect x="384" y="699" width="132" height="42" rx="21" fill="#153F59" fill-opacity="0.7" stroke="#69CBE6" stroke-opacity="0.38"/>
+    <circle cx="424" cy="720" r="6" stroke="#70D9F4" stroke-width="1.7"/>
+    <circle cx="450" cy="720" r="6" stroke="#E0B300" stroke-width="1.7"/>
+    <circle cx="476" cy="720" r="6" stroke="#70D9F4" stroke-width="1.7"/>
+    <path d="M430 720H444M456 720H470" stroke="#70D9F4" stroke-opacity="0.7" stroke-width="1.5"/>
+  </g>
+</svg>
